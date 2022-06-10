@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- type ahead -->
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+      
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js">
+    </script>
+      
+    <link href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <!-- calendar -->
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    
+    
+    <title>SeekStays</title>
+
+  
+</head>
+<body>
+    
+
+    <a href="/#" style="text-decoration: none; color: black;">
+        <div class="d-flex p-2">
+            <img src="/assets/images/logo.png" alt="" style="width: 70px;height: 55px;">
+            <h1 class="pageName">SeekStays</h1>
+    
+        </div>
+    </a>
+
+    <div class="container">
+        <h4><b>Hotel Name</b></h4>
+        <div class="row" style="margin-bottom: 10px; margin-top: 5px;" >
+            <div class="col"style="border: 2px solid grey;margin-right: 10px;">
+                <h4><b>Room 1, King Bed, Non-Smoking</b></h4>
+                
+                <form action="">
+                    <div class="form-group">
+                        <label for="">First Name</label>
+                        <input type="text" class="form-control" id="" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Last Name</label>
+                        <input type="text" class="form-control" id="" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" id="" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Phone Number</label>
+                        <input type="text" class="form-control" id="" placeholder="Phone Number">
+                    </div>
+                    
+            </div>
+            <div class="col"style="border: 2px solid grey;margin-top: 5px;">
+                <div class="center-block">
+                <img src="/assets/images/holiday.jpg" alt="" class="center-block" style="width: 680px; margin-top: 5px; margin-bottom: 5px;">
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <!-- create a credit card fillout form -->
+            <div class="col-8" style="border: 2px solid grey; margin-right: 97px; margin-bottom: 20px;">
+                <h4><b>Credit Card</b></h4>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Card Number</label>
+                        <input type="text" class="form-control" id="" placeholder="Card Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Expiration Date</label>
+                        <input type="text" class="form-control" id="" placeholder="Expiration Date">
+                    </div>
+                    <div class="form-group">
+                        <label for="">CVV</label>
+                        <input type="text" class="form-control" id="" placeholder="CVV">
+                    </div>
+                    
+                </form>
+
+        </div>
+        <div class="col-3"style="border: 2px solid grey;margin-bottom: 20px;">
+            <h5><b>Check-in:</b> July 10th, 2022</h5>
+            <h5><b>Check-out:</b> July 15th, 2022</h5>
+            <div class="row" style="padding-left: 10px;">
+                <div class="col-3">
+                <h5><b>Total:</b></h5>
+                </div>
+                <div class="col">
+                    <h5>$600.00</h5>
+                    </div>
+            </div>
+            <br>
+            
+            <label for="">Confirmation Email:</label>
+                        <input type="text" class="form-control" id="" placeholder="Email">
+                        <br>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Pay Now
+                  </button>
+            </div>
+        </div>
+        <!-- Modal -->
+            
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><b>Confirmation!</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    Thank you for booking with SeekStays! We look forward to seeing you. <br>
+                    Check your email for booking confirmation and reciept. <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-5">
+                        <b>Your Booking number is: </b>
+                        </div>
+                        <div class="col">
+                            12345658
+                            </div>
+                    </div>
+            </div>
+                <div class="modal-footer">
+                    <form action="/#">
+                        <button type="submit" class="btn btn-primary">Want to book another trip? Click Here!</button>
+                    </form>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Dismiss</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+  
+
+
+
+    <footer class="lead text-center">
+        <div class="well">
+            <h3><b>Need Help? Contact Us</b></h3>
+        <label for="email">Email: </label>
+        <a href="mailto:info@seekstays.inc.com" id="email">info@seekstays.inc.com</a>
+        <br>
+        <label for="phone">Phone Number: </label>
+        <a href="tel:1-800-667-9000" id="phone">1-800-667-9000</a>
+   
+        </div>
+        
+    </footer>
+
+
+
+
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- calendar -->
+<script src="/assets/Scripts/typeahead.js"></script>
+<script src="/assets/Scripts/hotels.js"></script>
+<script >
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+</script>
